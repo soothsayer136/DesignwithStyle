@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/HeightWidth"
+        android:text="Type and Run"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="40sp"
+        android:textSize="25sp"/>
+    <TextView
+        style="@style/tv"
+        android:text="Make:"
+        />
+    <EditText
+        android:text="BNW"
+        style="@style/et"
+        />
+    <TextView
+        style="@style/tv"
+        android:text="Year:"/>
+    <EditText
+        style="@style/et"
+        android:text="2012"/>
+    <TextView
+        style="@style/tv"
+        android:text="Color:"/>
+    <EditText
+        style="@style/et"
+        android:text="Black"/>
+    <TextView
+        style="@style/tv"
+        android:text="Purchase price(£):"/>
+    <EditText
+        style="@style/et"
+        android:text="38000"/>
+    <TextView
+        style="@style/tv"
+        android:text="Engine size(litre)"/>
+    <EditText
+        style="@style/et"
+        android:text="3.2"/>
+    <LinearLayout
+        style="@style/et"
+        android:gravity="center">
+        <Button
+            style="@style/HeightWidth"
+            android:text="Create Car"
+            />
+        <Button
+            style="@style/HeightWidth"
+            android:text="CREATE DIESEL"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="110sp">
+        <TextView
+            style="@style/Output"
+            android:text="This is vechile No.1\n Manufacturer: Mini; Current value: 17600: Effective\n engine size: 1.12\n\nThis is vechile No.2\n Manufacturer: BNW; Current value: 30400: Effective\n engine size: 1.12\n\nThis is vechile No.1\n Manufacturer: Mini; Current value: 17600: Effective\n engine size: 1.12\n"
+            />
+    </ScrollView>
+
+
+</LinearLayout>
